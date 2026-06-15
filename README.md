@@ -13,7 +13,7 @@
   <a href="https://github.com/ZuKaTo99">
     <img src="https://img.shields.io/badge/GitHub-ZuKaTo99-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://gitlab.com/birkan-sakar">
+  <a href="https://gitlab.com/ZuKaTo99">
     <img src="https://img.shields.io/badge/GitLab-Birkan%20Sakar-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Based%20in-Germany-000000?style=for-the-badge&logo=googlemaps&logoColor=white" />
