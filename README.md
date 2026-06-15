@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/GitHub-ZuKaTo99-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://gitlab.com/ZuKaTo99">
-    <img src="https://img.shields.io/badge/GitLab-Birkan%20Sakar-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitLab-ZuKaTo99-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Based%20in-Germany-000000?style=for-the-badge&logo=googlemaps&logoColor=white" />
   <img src="https://img.shields.io/badge/Focus-Application%20Development-blue?style=for-the-badge" />
@@ -24,13 +24,13 @@
 
 ## About Me
 
-- 🌍 I'm based in Germany  
-- 💻 I'm focused on application development, desktop tools and web-based interfaces  
-- 🧠 I'm currently improving my skills in C#, .NET MAUI Blazor, JavaScript, React Native and Node.js  
-- 🛠️ I'm working on PMD, TabellenSoftware / ExcelSoftware, JUMP-and-RUN and other software tools  
-- 🎮 I like building small games, useful tools and clean UI systems  
-- 🔐 I'm interested in system integration, cyber security and practical software architecture  
-- 🚀 I'm also exploring Rust, SQLite and future project automation workflows  
+* 🌍 I'm based in Germany
+* 💻 I'm focused on application development, desktop tools and web-based interfaces
+* 🧠 I'm currently improving my skills in C#, .NET MAUI Blazor, JavaScript, React Native and Node.js
+* 🛠️ I'm working on PMD, TabellenSoftware / ExcelSoftware, JUMP-and-RUN and other software tools
+* 🎮 I like building small games, useful tools and clean UI systems
+* 🔐 I'm interested in system integration, cyber security and practical software architecture
+* 🚀 I'm also exploring Rust, SQLite and future project automation workflows
 
 ---
 
@@ -103,19 +103,19 @@
 
 ## What I Build
 
-- 🖥️ **Desktop Applications**  
+* 🖥️ **Desktop Applications**
   C# / .NET tools with clean UI, file handling, Excel processing and report generation.
 
-- 🌐 **Web & App Interfaces**  
+* 🌐 **Web & App Interfaces**
   HTML, CSS, JavaScript, Bootstrap, Vite, React Native and React Native Web.
 
-- 📊 **Project Management Software**  
+* 📊 **Project Management Software**
   Tools for project overview, project states, folder scanning and future change reports.
 
-- 🎮 **Games & Game UI**  
+* 🎮 **Games & Game UI**
   Small C# WinForms games and Unity UI systems with UI Toolkit, UXML and USS.
 
-- 🧩 **System Integration**  
+* 🧩 **System Integration**
   Combining different parts of an application like UI, scanner logic, file processing and project structure.
 
 ---
@@ -128,11 +128,11 @@ Project Manager Dashboard is a MAUI Blazor Hybrid app for managing projects, pro
 
 **Tech:** C#, .NET MAUI, Blazor Hybrid, HTML, CSS, Windows Desktop, CommunityToolkit.Maui
 
-- Project overview
-- Project folder scanning
-- File count and size analysis
-- Clean German UI texts
-- Future plans: project states, change reports, SQLite and Rust core integration
+* Project overview
+* Project folder scanning
+* File count and size analysis
+* Clean German UI texts
+* Future plans: project states, change reports, SQLite and Rust core integration
 
 ---
 
@@ -142,12 +142,12 @@ A private C# / .NET Excel comparison tool with write-back logic, conflict handli
 
 **Tech:** C#, .NET, WinForms, ClosedXML, QuestPDF, Excel processing, PDF reports
 
-- Excel comparison
-- Conflict detection
-- Manual decisions
-- Write-back preview
-- Safe write-back into copied files
-- PDF reports for unclear cases
+* Excel comparison
+* Conflict detection
+* Manual decisions
+* Write-back preview
+* Safe write-back into copied files
+* PDF reports for unclear cases
 
 ---
 
@@ -157,12 +157,12 @@ A small C# WinForms jump-and-run mini-game with events, upgrades, high scores an
 
 **Tech:** C#, WinForms, .NET Framework, Game Logic
 
-- Player movement
-- Power-ups
-- Events
-- Achievements
-- High scores
-- Upgrade systems
+* Player movement
+* Power-ups
+* Events
+* Achievements
+* High scores
+* Upgrade systems
 
 ---
 
@@ -180,11 +180,11 @@ Unity UI work for a game frontend, including HUD elements and safe-area handling
 
 **Tech:** Unity, C#, UI Toolkit, UXML, USS
 
-- HP display
-- Score display
-- Timer display
-- Safe-area support
-- Clean UI controller structure
+* HP display
+* Score display
+* Timer display
+* Safe-area support
+* Clean UI controller structure
 
 ---
 
@@ -225,11 +225,10 @@ Unity UI work for a game frontend, including HUD elements and safe-area handling
   <a href="https://github.com/ZuKaTo99">
     <img src="https://img.shields.io/badge/GitHub-ZuKaTo99-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://gitlab.com/birkan-sakar">
-    <img src="https://img.shields.io/badge/GitLab-Birkan%20Sakar-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <a href="https://gitlab.com/ZuKaTo99">
+    <img src="https://img.shields.io/badge/GitLab-ZuKaTo99-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
   </a>
   <a href="mailto:xboxliveboy@web.de">
     <img src="https://img.shields.io/badge/Email-xboxliveboy%40web.de-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-```
