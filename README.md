@@ -86,6 +86,12 @@
   <img src="https://img.shields.io/badge/Python-Learning-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Java-Learning-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/MongoDB-Learning-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/MySQL-Learning-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/SQLite-Learning-07405e?style=for-the-badge&logo=sqlite&logoColor=white" />
 </p>
 
 ### Exploring
