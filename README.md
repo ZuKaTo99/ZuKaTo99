@@ -1,4 +1,3 @@
-```md
 <h1 align="center">Hi 👋 My name is ZuKaTo</h1>
 
 <h3 align="center">Full-Stack Developer | C# / .NET | Web & App Development</h3>
