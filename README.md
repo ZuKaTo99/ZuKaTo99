@@ -228,7 +228,7 @@ Unity UI work for a game frontend, including HUD elements and safe-area handling
 ## GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZuKaTo99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&locale=de&cache_seconds=21600" alt="ZuKaTo99 GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ZuKaTo99&show_icons=true&theme=tokyonight&hide_border=true&locale=de&cache_seconds=21600" alt="ZuKaTo99 GitHub stats" />
 </p>
 
 <p align="left">
