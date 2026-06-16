@@ -228,15 +228,15 @@ Unity UI work for a game frontend, including HUD elements and safe-area handling
 ## GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZuKaTo99&show_icons=true&theme=tokyonight&hide_border=true" alt="ZuKaTo99 GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ZuKaTo99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&locale=de&cache_seconds=21600" alt="ZuKaTo99 GitHub stats" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZuKaTo99&theme=tokyonight&hide_border=true" alt="ZuKaTo99 GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=ZuKaTo99&theme=tokyonight&hide_border=true&locale=de&date_format=j%20M%5B%20Y%5D" alt="ZuKaTo99 GitHub streak" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZuKaTo99&layout=compact&theme=tokyonight&hide_border=true" alt="ZuKaTo99 top languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZuKaTo99&layout=compact&theme=tokyonight&hide_border=true&locale=de&cache_seconds=21600" alt="ZuKaTo99 top languages" />
 </p>
 
 <p align="left">
