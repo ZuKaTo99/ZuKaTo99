@@ -198,8 +198,7 @@ It was built as a small practical tool with a simple purpose and direct behavior
 ## GitHub Insights
 
 <p align="center">
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ZuKaTo99&theme=tokyonight" alt="ZuKaTo99 languages by repository" />
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ZuKaTo99&theme=tokyonight" alt="ZuKaTo99 languages by commits" />
+  <img width="420" src="./assets/languages.svg" alt="ZuKaTo99 language usage" />
 </p>
 
 <p align="center">
