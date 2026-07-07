@@ -8,9 +8,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ZuKaTo99">
-    <img src="https://img.shields.io/badge/GitHub-ZuKaTo99-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub ZuKaTo99" />
-  </a>
   <a href="https://gitlab.com/ZuKaTo99">
     <img src="https://img.shields.io/badge/GitLab-ZuKaTo99-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab ZuKaTo99" />
   </a>
