@@ -198,7 +198,7 @@ It was built as a small practical tool with a simple purpose and direct behavior
 ## GitHub Insights
 
 <p align="center">
-  <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZuKaTo99&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Languages" alt="ZuKaTo99 most used languages" />
+  <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs?username=ZuKaTo99&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" alt="Most used languages" />
 </p>
 
 <p align="center">
