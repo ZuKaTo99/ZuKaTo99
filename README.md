@@ -198,16 +198,12 @@ It was built as a small practical tool with a simple purpose and direct behavior
 ## GitHub Insights
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ZuKaTo99&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=21600" alt="ZuKaTo99 GitHub stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZuKaTo99&theme=tokyonight&hide_border=true&langs_count=8" alt="ZuKaTo99 language usage graph" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ZuKaTo99&theme=tokyonight" alt="ZuKaTo99 languages by repository" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ZuKaTo99&theme=tokyonight" alt="ZuKaTo99 languages by commits" />
 </p>
 
 <p align="center">
-  <img width="60%" src="https://streak-stats.demolab.com/?user=ZuKaTo99&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="ZuKaTo99 GitHub streak" />
-</p>
-
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ZuKaTo99&theme=tokyo-night&hide_border=true" alt="ZuKaTo99 GitHub activity graph" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ZuKaTo99&theme=tokyo-night&hide_border=true&custom_title=ZuKaTo99%27s%20Contribution%20Graph" alt="ZuKaTo99 contribution graph" />
 </p>
 
 ---
