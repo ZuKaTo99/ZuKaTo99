@@ -98,6 +98,13 @@ jobs:
           function buildSvg(totalContributions, currentStreak, longestStreak) {
             return `
           <svg width="420" height="210" viewBox="0 0 420 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="streakGradient" x1="176" y1="55" x2="244" y2="123" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#22D3EE"/>
+                <stop offset="100%" stop-color="#38BDF8"/>
+              </linearGradient>
+            </defs>
+
             <rect width="420" height="210" rx="12" fill="#0D1117"/>
 
             <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
@@ -116,41 +123,44 @@ jobs:
               last 12 months
             </text>
 
-            <line x1="150" y1="70" x2="150" y2="154" stroke="#30363D"/>
+            <line x1="150" y1="72" x2="150" y2="154" stroke="#30363D"/>
 
-            <circle cx="210" cy="96" r="36" stroke="#12B5EA" stroke-width="4.5" fill="none"/>
+            <circle cx="210" cy="91" r="35" stroke="url(#streakGradient)" stroke-width="5" fill="none"/>
 
-            <path
-              d="M210 40
-                 C206 46, 205 50, 208 55
-                 C202 59, 199 66, 199 73
-                 C199 82, 204 89, 210 89
-                 C216 89, 221 82, 221 73
-                 C221 66, 218 59, 212 55
-                 C215 50, 214 45, 210 40Z"
-              fill="#12B5EA"/>
+            <circle cx="210" cy="57" r="13" fill="#0D1117"/>
 
             <path
-              d="M210 55
-                 C208 59, 208 62, 209 65
-                 C206 68, 205 71, 205 75
-                 C205 80, 207 83, 210 83
-                 C213 83, 215 80, 215 75
-                 C215 71, 214 68, 211 65
-                 C212 61, 212 58, 210 55Z"
+              d="M210 43
+                 C206 49, 207 53, 209 56
+                 C204 59, 202 64, 202 69
+                 C202 76, 205 81, 210 81
+                 C215 81, 218 76, 218 69
+                 C218 64, 216 59, 211 56
+                 C214 52, 214 47, 210 43Z"
+              fill="#22D3EE"/>
+
+            <path
+              d="M210 57
+                 C208 60, 208 62, 209 64
+                 C207 66, 206 68, 206 71
+                 C206 75, 208 77, 210 77
+                 C212 77, 214 75, 214 71
+                 C214 68, 213 66, 211 64
+                 C212 61, 212 59, 210 57Z"
               fill="#0D1117"/>
 
-            <text x="210" y="110" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
+            <text x="210" y="105" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="800">
               ${escapeXml(currentStreak)}
             </text>
-            <text x="210" y="151" text-anchor="middle" fill="#12B5EA" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+
+            <text x="210" y="146" text-anchor="middle" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
               Current streak
             </text>
-            <text x="210" y="171" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+            <text x="210" y="166" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
               days
             </text>
 
-            <line x1="270" y1="70" x2="270" y2="154" stroke="#30363D"/>
+            <line x1="270" y1="72" x2="270" y2="154" stroke="#30363D"/>
 
             <text x="330" y="98" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
               ${escapeXml(longestStreak)}
