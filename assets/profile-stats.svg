@@ -8,7 +8,7 @@
   <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
 
   <text x="70" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
-    153
+    155
   </text>
   <text x="70" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
     Total
@@ -22,32 +22,32 @@
   <circle cx="210" cy="82" r="38" stroke="#12B5EA" stroke-width="5" fill="none"/>
 
   <path
-    d="M210 39
-       C205 46, 206 50, 209 54
-       C202 57, 198 63, 198 70
-       C198 79, 203 86, 210 86
-       C217 86, 222 79, 222 70
-       C222 63, 218 57, 212 53
-       C215 48, 214 43, 210 39Z"
+    d="M210 31
+       C205 38, 206 42, 209 46
+       C203 49, 200 54, 200 60
+       C200 68, 204 74, 210 74
+       C216 74, 220 68, 220 60
+       C220 54, 217 49, 212 45
+       C215 40, 214 35, 210 31Z"
     fill="#12B5EA"/>
 
   <path
-    d="M210 57
-       C207 61, 207 64, 209 67
-       C206 69, 204 72, 204 75
-       C204 80, 207 83, 210 83
-       C213 83, 216 80, 216 75
-       C216 72, 214 69, 212 67
-       C214 63, 213 60, 210 57Z"
+    d="M210 48
+       C208 51, 208 54, 209 56
+       C207 58, 206 60, 206 63
+       C206 67, 208 70, 210 70
+       C212 70, 214 67, 214 63
+       C214 60, 213 58, 211 56
+       C213 53, 212 50, 210 48Z"
     fill="#0D1117"/>
 
-  <text x="210" y="96" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
+  <text x="210" y="102" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
     3
   </text>
-  <text x="210" y="138" text-anchor="middle" fill="#12B5EA" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+  <text x="210" y="144" text-anchor="middle" fill="#12B5EA" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Current streak
   </text>
-  <text x="210" y="160" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+  <text x="210" y="166" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
     days
   </text>
 
