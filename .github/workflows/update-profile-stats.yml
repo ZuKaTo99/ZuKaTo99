@@ -106,59 +106,59 @@ jobs:
 
             <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
 
-            <text x="70" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+            <text x="78" y="98" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
               ${escapeXml(formatNumber(totalContributions))}
             </text>
-            <text x="70" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
+            <text x="78" y="126" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
               Total
             </text>
-            <text x="70" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+            <text x="78" y="147" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
               last 12 months
             </text>
 
-            <line x1="145" y1="72" x2="145" y2="152" stroke="#30363D"/>
+            <line x1="150" y1="70" x2="150" y2="154" stroke="#30363D"/>
 
-            <circle cx="210" cy="82" r="38" stroke="#12B5EA" stroke-width="5" fill="none"/>
+            <circle cx="210" cy="96" r="36" stroke="#12B5EA" stroke-width="4.5" fill="none"/>
 
             <path
-              d="M210 31
-                 C205 38, 206 42, 209 46
-                 C203 49, 200 54, 200 60
-                 C200 68, 204 74, 210 74
-                 C216 74, 220 68, 220 60
-                 C220 54, 217 49, 212 45
-                 C215 40, 214 35, 210 31Z"
+              d="M210 40
+                 C206 46, 205 50, 208 55
+                 C202 59, 199 66, 199 73
+                 C199 82, 204 89, 210 89
+                 C216 89, 221 82, 221 73
+                 C221 66, 218 59, 212 55
+                 C215 50, 214 45, 210 40Z"
               fill="#12B5EA"/>
 
             <path
-              d="M210 48
-                 C208 51, 208 54, 209 56
-                 C207 58, 206 60, 206 63
-                 C206 67, 208 70, 210 70
-                 C212 70, 214 67, 214 63
-                 C214 60, 213 58, 211 56
-                 C213 53, 212 50, 210 48Z"
+              d="M210 55
+                 C208 59, 208 62, 209 65
+                 C206 68, 205 71, 205 75
+                 C205 80, 207 83, 210 83
+                 C213 83, 215 80, 215 75
+                 C215 71, 214 68, 211 65
+                 C212 61, 212 58, 210 55Z"
               fill="#0D1117"/>
 
-            <text x="210" y="102" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
+            <text x="210" y="110" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
               ${escapeXml(currentStreak)}
             </text>
-            <text x="210" y="144" text-anchor="middle" fill="#12B5EA" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+            <text x="210" y="151" text-anchor="middle" fill="#12B5EA" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
               Current streak
             </text>
-            <text x="210" y="166" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+            <text x="210" y="171" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
               days
             </text>
 
-            <line x1="275" y1="72" x2="275" y2="152" stroke="#30363D"/>
+            <line x1="270" y1="70" x2="270" y2="154" stroke="#30363D"/>
 
-            <text x="340" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+            <text x="330" y="98" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
               ${escapeXml(longestStreak)}
             </text>
-            <text x="340" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
+            <text x="330" y="126" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
               Longest streak
             </text>
-            <text x="340" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+            <text x="330" y="147" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
               days
             </text>
 
