@@ -1,0 +1,48 @@
+<svg width="420" height="210" viewBox="0 0 420 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="210" rx="12" fill="#0D1117"/>
+
+  <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
+    Contributions
+  </text>
+
+  <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
+
+  <text x="70" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+    151
+  </text>
+  <text x="70" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
+    Total
+  </text>
+  <text x="70" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+    last 12 months
+  </text>
+
+  <line x1="145" y1="72" x2="145" y2="152" stroke="#30363D"/>
+
+  <text x="210" y="95" text-anchor="middle" fill="#A371F7" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+    3
+  </text>
+  <text x="210" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
+    Current streak
+  </text>
+  <text x="210" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+    days
+  </text>
+
+  <line x1="275" y1="72" x2="275" y2="152" stroke="#30363D"/>
+
+  <text x="340" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+    5
+  </text>
+  <text x="340" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
+    Longest streak
+  </text>
+  <text x="340" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+    days
+  </text>
+
+  <line x1="28" y1="174" x2="392" y2="174" stroke="#30363D"/>
+  <text x="28" y="194" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="11">
+    Auto-generated from public GitHub contribution data.
+  </text>
+</svg>
