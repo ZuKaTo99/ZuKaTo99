@@ -1,12 +1,5 @@
-<svg width="420" height="210" viewBox="0 0 420 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="streakGradient" x1="176" y1="55" x2="244" y2="123" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#22D3EE"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="420" height="210" rx="12" fill="#0D1117"/>
+<svg width="420" height="190" viewBox="0 0 420 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="190" rx="12" fill="#0D1117"/>
 
   <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
     Contributions
@@ -14,67 +7,61 @@
 
   <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
 
-  <text x="78" y="98" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
-    159
+  <text x="78" y="96" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+    162
   </text>
-  <text x="78" y="126" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+  <text x="78" y="124" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Total
   </text>
-  <text x="78" y="147" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <text x="78" y="145" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
     last 12 months
   </text>
 
-  <line x1="150" y1="72" x2="150" y2="154" stroke="#30363D"/>
+  <line x1="148" y1="70" x2="148" y2="150" stroke="#30363D"/>
 
-  <circle cx="210" cy="91" r="35" stroke="url(#streakGradient)" stroke-width="5" fill="none"/>
+  <circle cx="210" cy="90" r="33" stroke="#EF4444" stroke-width="4.5" fill="none"/>
 
-  <circle cx="210" cy="57" r="13" fill="#0D1117"/>
-
-  <path
-    d="M210 43
-       C206 49, 207 53, 209 56
-       C204 59, 202 64, 202 69
-       C202 76, 205 81, 210 81
-       C215 81, 218 76, 218 69
-       C218 64, 216 59, 211 56
-       C214 52, 214 47, 210 43Z"
-    fill="#22D3EE"/>
+  <circle cx="210" cy="54" r="11" fill="#0D1117" stroke="#EF4444" stroke-width="2.5"/>
 
   <path
-    d="M210 57
-       C208 60, 208 62, 209 64
-       C207 66, 206 68, 206 71
-       C206 75, 208 77, 210 77
-       C212 77, 214 75, 214 71
-       C214 68, 213 66, 211 64
-       C212 61, 212 59, 210 57Z"
+    d="M210 44
+       C207.2 48.5, 207.2 51.5, 209.1 54.2
+       C205.5 56.9, 203.6 61.2, 203.6 65.8
+       C203.6 72, 206.2 76.2, 210 76.2
+       C213.8 76.2, 216.4 72, 216.4 65.8
+       C216.4 61.2, 214.5 56.9, 210.9 54.2
+       C212.8 51.5, 212.8 48.5, 210 44Z"
+    fill="#EF4444"/>
+
+  <path
+    d="M210 56
+       C208.7 58.4, 208.8 60.3, 209.6 61.8
+       C208.1 63.1, 207.3 65, 207.3 67
+       C207.3 70.3, 208.5 72.3, 210 72.3
+       C211.5 72.3, 212.7 70.3, 212.7 67
+       C212.7 65, 211.9 63.1, 210.4 61.8
+       C211.2 60.3, 211.3 58.4, 210 56Z"
     fill="#0D1117"/>
 
-  <text x="210" y="105" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="800">
+  <text x="210" y="103" text-anchor="middle" fill="#F59E0B" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
     3
   </text>
-
-  <text x="210" y="146" text-anchor="middle" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+  <text x="210" y="143" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Current streak
   </text>
-  <text x="210" y="166" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+  <text x="210" y="163" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
     days
   </text>
 
-  <line x1="270" y1="72" x2="270" y2="154" stroke="#30363D"/>
+  <line x1="272" y1="70" x2="272" y2="150" stroke="#30363D"/>
 
-  <text x="330" y="98" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+  <text x="334" y="96" text-anchor="middle" fill="#A855F7" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
     5
   </text>
-  <text x="330" y="126" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+  <text x="334" y="124" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Longest streak
   </text>
-  <text x="330" y="147" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <text x="334" y="145" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
     days
-  </text>
-
-  <line x1="28" y1="182" x2="392" y2="182" stroke="#30363D"/>
-  <text x="28" y="194" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="11">
-    Auto-generated from public GitHub contribution data.
   </text>
 </svg>
