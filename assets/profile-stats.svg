@@ -1,5 +1,5 @@
-<svg width="420" height="190" viewBox="0 0 420 190" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="420" height="190" rx="12" fill="#0D1117"/>
+<svg width="420" height="180" viewBox="0 0 420 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="180" rx="12" fill="#0D1117"/>
 
   <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
     Contributions
@@ -7,59 +7,60 @@
 
   <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
 
-  <text x="78" y="96" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
-    164
+  <text x="78" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+    167
   </text>
-  <text x="78" y="124" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+  <text x="78" y="123" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Total
   </text>
-  <text x="78" y="145" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <text x="78" y="144" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
     last 12 months
   </text>
 
-  <line x1="148" y1="70" x2="148" y2="150" stroke="#30363D"/>
+  <line x1="150" y1="68" x2="150" y2="148" stroke="#30363D"/>
 
-  <circle cx="210" cy="90" r="33" stroke="#EF4444" stroke-width="4.5" fill="none"/>
+  <circle cx="210" cy="92" r="31" stroke="#EF4444" stroke-width="4.5" fill="none"/>
 
-  <path
-    d="M210 41
-       C206 47, 204 53, 205 59
-       C200.5 63, 198 69, 198 75
-       C198 84, 203 90, 210 90
-       C217 90, 222 84, 222 75
-       C222 69, 219.5 63, 215 59
-       C216 53, 214 47, 210 41Z"
-    fill="#EF4444"/>
+  <g transform="translate(210 45)">
+    <path
+      d="M0 -10
+         C-4 -5.5 -6 -0.5 -5 4.5
+         C-9 8 -11 13 -11 18
+         C-11 26 -6 32 0 32
+         C6 32 11 26 11 18
+         C11 13 9 8 5 4.5
+         C6 -0.5 4 -5.5 0 -10Z"
+      fill="#EF4444"/>
+    <path
+      d="M0 2
+         C-2.3 5 -3.2 8.2 -2.8 11.2
+         C-5 13.4 -6 16.3 -6 19
+         C-6 23.5 -3.3 27 0 27
+         C3.3 27 6 23.5 6 19
+         C6 16.3 5 13.4 2.8 11.2
+         C3.2 8.2 2.3 5 0 2Z"
+      fill="#0D1117"/>
+  </g>
 
-  <path
-    d="M210 56
-       C208.2 59.2, 208.2 62, 209.2 64.3
-       C207.2 66.3, 206 69.2, 206 72.5
-       C206 77, 207.8 80, 210 80
-       C212.2 80, 214 77, 214 72.5
-       C214 69.2, 212.8 66.3, 210.8 64.3
-       C211.8 62, 211.8 59.2, 210 56Z"
-    fill="#0D1117"/>
-
-  <text x="210" y="103" text-anchor="middle" fill="#F59E0B" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
+  <text x="210" y="104" text-anchor="middle" fill="#F59E0B" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
     3
   </text>
-  <text x="210" y="143" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+  <text x="210" y="142" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Current streak
   </text>
-  <text x="210" y="163" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+  <text x="210" y="162" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
     days
   </text>
 
-  <line x1="272" y1="70" x2="272" y2="150" stroke="#30363D"/>
+  <line x1="270" y1="68" x2="270" y2="148" stroke="#30363D"/>
 
-  <text x="334" y="96" text-anchor="middle" fill="#A855F7" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+  <text x="332" y="95" text-anchor="middle" fill="#A855F7" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
     5
   </text>
-  <text x="334" y="124" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+  <text x="332" y="123" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Longest streak
   </text>
-  <text x="334" y="145" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <text x="332" y="144" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
     days
   </text>
 </svg>
