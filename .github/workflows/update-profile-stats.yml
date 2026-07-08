@@ -16,7 +16,7 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Generate profile stats and heatmap
+      - name: Generate profile-stats.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ZuKaTo99
@@ -95,10 +95,10 @@ jobs:
             };
           }
 
-          function buildProfileStatsSvg(totalContributions, currentStreak, longestStreak) {
+          function buildSvg(totalContributions, currentStreak, longestStreak) {
             return `
-          <svg width="420" height="190" viewBox="0 0 420 190" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="420" height="190" rx="12" fill="#0D1117"/>
+          <svg width="420" height="180" viewBox="0 0 420 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="420" height="180" rx="12" fill="#0D1117"/>
 
             <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
               Contributions
@@ -106,164 +106,62 @@ jobs:
 
             <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
 
-            <text x="78" y="96" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+            <text x="78" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
               ${escapeXml(formatNumber(totalContributions))}
             </text>
-            <text x="78" y="124" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+            <text x="78" y="123" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
               Total
             </text>
-            <text x="78" y="145" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+            <text x="78" y="144" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
               last 12 months
             </text>
 
-            <line x1="148" y1="70" x2="148" y2="150" stroke="#30363D"/>
+            <line x1="150" y1="68" x2="150" y2="148" stroke="#30363D"/>
 
-            <circle cx="210" cy="90" r="33" stroke="#EF4444" stroke-width="4.5" fill="none"/>
+            <circle cx="210" cy="92" r="31" stroke="#EF4444" stroke-width="4.5" fill="none"/>
 
-            <path
-              d="M210 41
-                 C206 47, 204 53, 205 59
-                 C200.5 63, 198 69, 198 75
-                 C198 84, 203 90, 210 90
-                 C217 90, 222 84, 222 75
-                 C222 69, 219.5 63, 215 59
-                 C216 53, 214 47, 210 41Z"
-              fill="#EF4444"/>
+            <g transform="translate(210 45)">
+              <path
+                d="M0 -10
+                   C-4 -5.5 -6 -0.5 -5 4.5
+                   C-9 8 -11 13 -11 18
+                   C-11 26 -6 32 0 32
+                   C6 32 11 26 11 18
+                   C11 13 9 8 5 4.5
+                   C6 -0.5 4 -5.5 0 -10Z"
+                fill="#EF4444"/>
+              <path
+                d="M0 2
+                   C-2.3 5 -3.2 8.2 -2.8 11.2
+                   C-5 13.4 -6 16.3 -6 19
+                   C-6 23.5 -3.3 27 0 27
+                   C3.3 27 6 23.5 6 19
+                   C6 16.3 5 13.4 2.8 11.2
+                   C3.2 8.2 2.3 5 0 2Z"
+                fill="#0D1117"/>
+            </g>
 
-            <path
-              d="M210 56
-                 C208.2 59.2, 208.2 62, 209.2 64.3
-                 C207.2 66.3, 206 69.2, 206 72.5
-                 C206 77, 207.8 80, 210 80
-                 C212.2 80, 214 77, 214 72.5
-                 C214 69.2, 212.8 66.3, 210.8 64.3
-                 C211.8 62, 211.8 59.2, 210 56Z"
-              fill="#0D1117"/>
-
-            <text x="210" y="103" text-anchor="middle" fill="#F59E0B" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
+            <text x="210" y="104" text-anchor="middle" fill="#F59E0B" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
               ${escapeXml(currentStreak)}
             </text>
-            <text x="210" y="143" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+            <text x="210" y="142" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
               Current streak
             </text>
-            <text x="210" y="163" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+            <text x="210" y="162" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
               days
             </text>
 
-            <line x1="272" y1="70" x2="272" y2="150" stroke="#30363D"/>
+            <line x1="270" y1="68" x2="270" y2="148" stroke="#30363D"/>
 
-            <text x="334" y="96" text-anchor="middle" fill="#A855F7" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+            <text x="332" y="95" text-anchor="middle" fill="#A855F7" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
               ${escapeXml(longestStreak)}
             </text>
-            <text x="334" y="124" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+            <text x="332" y="123" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
               Longest streak
             </text>
-            <text x="334" y="145" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+            <text x="332" y="144" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
               days
             </text>
-          </svg>`.trim();
-          }
-
-          function getMonthLabels(weeks, gridStartX, cellPitch) {
-            const labels = [];
-            let lastMonth = "";
-
-            weeks.forEach((week, weekIndex) => {
-              const firstDay = week.contributionDays[0];
-              const date = new Date(firstDay.date);
-              const month = date.toLocaleString("en-US", { month: "short", timeZone: "UTC" });
-
-              if (month !== lastMonth) {
-                labels.push({
-                  month,
-                  x: gridStartX + weekIndex * cellPitch
-                });
-                lastMonth = month;
-              }
-            });
-
-            return labels;
-          }
-
-          function getHeatColor(count, maxCount) {
-            if (count === 0) {
-              return "#1F2430";
-            }
-
-            const ratio = maxCount === 0 ? 0 : count / maxCount;
-
-            if (ratio <= 0.33) {
-              return "#F59E0B";
-            }
-
-            if (ratio <= 0.66) {
-              return "#A855F7";
-            }
-
-            return "#EF4444";
-          }
-
-          function buildHeatmapSvg(calendar) {
-            const weeks = calendar.weeks;
-            const allDays = weeks.flatMap(week => week.contributionDays);
-            const totalContributions = calendar.totalContributions;
-            const maxCount = Math.max(...allDays.map(day => day.contributionCount), 0);
-
-            const width = 900;
-            const height = 280;
-            const gridStartX = 90;
-            const gridStartY = 74;
-            const cellSize = 11;
-            const gap = 4;
-            const cellPitch = cellSize + gap;
-
-            const monthLabels = getMonthLabels(weeks, gridStartX, cellPitch);
-
-            const monthTexts = monthLabels.map(label => `
-            <text x="${label.x}" y="52" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
-              ${escapeXml(label.month)}
-            </text>`).join("");
-
-            const dayLabels = `
-            <text x="34" y="${gridStartY + cellPitch * 1 + 9}" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Mon</text>
-            <text x="34" y="${gridStartY + cellPitch * 3 + 9}" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Wed</text>
-            <text x="34" y="${gridStartY + cellPitch * 5 + 9}" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Fri</text>`;
-
-            const cells = weeks.map((week, weekIndex) => {
-              return week.contributionDays.map((day, dayIndex) => {
-                const x = gridStartX + weekIndex * cellPitch;
-                const y = gridStartY + dayIndex * cellPitch;
-                const fill = getHeatColor(day.contributionCount, maxCount);
-
-                return `
-            <rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" rx="2.5" fill="${fill}">
-              <title>${day.date}: ${day.contributionCount} contribution(s)</title>
-            </rect>`;
-              }).join("");
-            }).join("");
-
-            return `
-          <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="${width}" height="${height}" rx="14" fill="#0D1117"/>
-
-            <text x="28" y="34" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
-              Contribution Activity
-            </text>
-
-            <text x="28" y="55" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="13">
-              Last 12 months · ${escapeXml(formatNumber(totalContributions))} contributions
-            </text>
-
-            <text x="742" y="34" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Less</text>
-            <rect x="776" y="24" width="11" height="11" rx="2.5" fill="#1F2430"/>
-            <rect x="793" y="24" width="11" height="11" rx="2.5" fill="#F59E0B"/>
-            <rect x="810" y="24" width="11" height="11" rx="2.5" fill="#A855F7"/>
-            <rect x="827" y="24" width="11" height="11" rx="2.5" fill="#EF4444"/>
-            <text x="846" y="34" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">More</text>
-
-            ${monthTexts}
-            ${dayLabels}
-            ${cells}
           </svg>`.trim();
           }
 
@@ -300,20 +198,16 @@ jobs:
             const days = calendar.weeks.flatMap(week => week.contributionDays);
             const streaks = calculateStreaks(days);
 
-            const profileStatsSvg = buildProfileStatsSvg(
+            const svg = buildSvg(
               calendar.totalContributions,
               streaks.currentStreak,
               streaks.longestStreak
             );
 
-            const heatmapSvg = buildHeatmapSvg(calendar);
-
             fs.mkdirSync("assets", { recursive: true });
-            fs.writeFileSync(path.join("assets", "profile-stats.svg"), profileStatsSvg, "utf8");
-            fs.writeFileSync(path.join("assets", "contributions-heatmap.svg"), heatmapSvg, "utf8");
+            fs.writeFileSync(path.join("assets", "profile-stats.svg"), svg, "utf8");
 
             console.log("Generated assets/profile-stats.svg");
-            console.log("Generated assets/contributions-heatmap.svg");
           }
 
           main().catch(error => {
@@ -322,13 +216,12 @@ jobs:
           });
           NODE
 
-      - name: Commit generated SVGs
+      - name: Commit generated SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add assets/profile-stats.svg
-          git add assets/contributions-heatmap.svg
 
           if git diff --cached --quiet; then
             echo "No profile stat changes to commit."
