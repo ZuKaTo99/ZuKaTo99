@@ -197,9 +197,16 @@ It was built as a small practical tool with a simple purpose and direct behavior
 
 ## GitHub Insights
 
-<p align="center">
-  <img width="420" src="./assets/languages.svg" alt="ZuKaTo99 language usage" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img width="390" src="./assets/profile-stats.svg" alt="ZuKaTo99 contributions and streaks" />
+    </td>
+    <td align="center">
+      <img width="390" src="./assets/languages.svg" alt="ZuKaTo99 language usage" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ZuKaTo99&theme=tokyo-night&hide_border=true&custom_title=ZuKaTo99%27s%20Contribution%20Graph" alt="ZuKaTo99 contribution graph" />
