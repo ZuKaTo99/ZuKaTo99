@@ -200,7 +200,7 @@ It was built as a small practical tool with a simple purpose and direct behavior
 <table align="center">
   <tr>
     <td align="center">
-      <img width="390" src="./assets/profile-stats.svg?v=8" alt="ZuKaTo99 contributions and streaks" />
+      <img width="390" src="./assets/profile-stats.svg?v=9" alt="ZuKaTo99 contributions and streaks" />
     </td>
     <td align="center">
       <img width="390" src="./assets/languages.svg?v=3" alt="ZuKaTo99 language usage" />
