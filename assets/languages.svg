@@ -1,40 +1,31 @@
-<svg width="420" height="210" viewBox="0 0 420 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="420" height="210" rx="12" fill="#0D1117"/>
+<svg width="420" height="190" viewBox="0 0 420 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="190" rx="12" fill="#0D1117"/>
 
   <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
     Languages
   </text>
 
   <rect x="28" y="62" width="340" height="10" rx="5" fill="#21262D"/>
-  <rect x="28.00" y="62" width="251.90" height="10" rx="5" fill="#178600"/>
-  <rect x="279.90" y="62" width="37.99" height="10" rx="0" fill="#e34c26"/>
-  <rect x="317.89" y="62" width="25.21" height="10" rx="0" fill="#f1e05a"/>
-  <rect x="343.10" y="62" width="24.66" height="10" rx="0" fill="#663399"/>
-  <rect x="367.76" y="62" width="3.00" height="10" rx="5" fill="#C1F12E"/>
-
+  <rect x="28.00" y="62" width="245.60" height="10" rx="5" fill="#178600"/>
+            <rect x="273.60" y="62" width="46.82" height="10" rx="0" fill="#E34C26"/>
+            <rect x="320.42" y="62" width="23.94" height="10" rx="0" fill="#F1E05A"/>
+            <rect x="344.35" y="62" width="23.42" height="10" rx="0" fill="#663399"/>
+            <rect x="367.77" y="62" width="3.00" height="10" rx="5" fill="#C1F12E"/>
   
-  <circle cx="30" cy="98" r="5" fill="#178600"/>
-  <text x="44" y="102" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">C#</text>
-  <text x="125" y="102" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">74.1%</text>
-
-  <circle cx="210" cy="98" r="5" fill="#e34c26"/>
-  <text x="224" y="102" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">HTML</text>
-  <text x="305" y="102" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">11.2%</text>
-
-  <circle cx="30" cy="126" r="5" fill="#f1e05a"/>
-  <text x="44" y="130" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">JavaScript</text>
-  <text x="125" y="130" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">7.4%</text>
-
-  <circle cx="210" cy="126" r="5" fill="#663399"/>
-  <text x="224" y="130" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">CSS</text>
-  <text x="305" y="130" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">7.3%</text>
-
-  <circle cx="30" cy="154" r="5" fill="#C1F12E"/>
-  <text x="44" y="158" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Batchfile</text>
-  <text x="125" y="158" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">0.1%</text>
-
-  <line x1="28" y1="182" x2="392" y2="182" stroke="#30363D"/>
-  <text x="28" y="199" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="11">
-    Auto-generated from public GitHub repository language data.
-  </text>
+  <circle cx="34" cy="96" r="5" fill="#178600"/>
+  <text x="48" y="100" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">C#</text>
+  <text x="130" y="100" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">72.2%</text>
+  <circle cx="34" cy="124" r="5" fill="#F1E05A"/>
+  <text x="48" y="128" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">JavaScript</text>
+  <text x="130" y="128" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">7.0%</text>
+  <circle cx="34" cy="152" r="5" fill="#C1F12E"/>
+  <text x="48" y="156" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Batchfile</text>
+  <text x="130" y="156" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">0.1%</text>
+  
+  <circle cx="212" cy="96" r="5" fill="#E34C26"/>
+  <text x="226" y="100" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">HTML</text>
+  <text x="318" y="100" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">13.8%</text>
+  <circle cx="212" cy="124" r="5" fill="#663399"/>
+  <text x="226" y="128" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">CSS</text>
+  <text x="318" y="128" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">6.9%</text>
 </svg>
