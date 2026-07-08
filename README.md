@@ -200,7 +200,7 @@ It was built as a small practical tool with a simple purpose and direct behavior
 <table align="center">
   <tr>
     <td align="center">
-      <img width="390" src="./assets/profile-stats.svg?v=6" alt="ZuKaTo99 contributions and streaks" />
+      <img width="390" src="./assets/profile-stats.svg?v=7" alt="ZuKaTo99 contributions and streaks" />
     </td>
     <td align="center">
       <img width="390" src="./assets/languages.svg?v=2" alt="ZuKaTo99 language usage" />
@@ -209,7 +209,7 @@ It was built as a small practical tool with a simple purpose and direct behavior
 </table>
 
 <p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ZuKaTo99&theme=tokyo-night&hide_border=true&custom_title=ZuKaTo99%27s%20Contribution%20Graph" alt="ZuKaTo99 contribution graph" />
+  <img width="95%" src="./assets/contributions-heatmap.svg?v=1" alt="ZuKaTo99 contribution heatmap" />
 </p>
 
 ---
