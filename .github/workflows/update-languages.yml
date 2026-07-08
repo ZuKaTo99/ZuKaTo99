@@ -30,21 +30,21 @@ jobs:
 
           const colors = {
             "C#": "#178600",
-            "HTML": "#e34c26",
+            "HTML": "#E34C26",
             "CSS": "#663399",
-            "JavaScript": "#f1e05a",
-            "TypeScript": "#3178c6",
+            "JavaScript": "#F1E05A",
+            "TypeScript": "#3178C6",
             "Python": "#3572A5",
-            "C++": "#f34b7d",
+            "C++": "#F34B7D",
             "C": "#555555",
-            "Java": "#b07219",
-            "Rust": "#dea584",
-            "Shell": "#89e051",
+            "Java": "#B07219",
+            "Rust": "#DEA584",
+            "Shell": "#89E051",
             "PowerShell": "#012456",
             "Batchfile": "#C1F12E",
-            "Dockerfile": "#384d54",
-            "Vue": "#41b883",
-            "Svelte": "#ff3e00",
+            "Dockerfile": "#384D54",
+            "Vue": "#41B883",
+            "Svelte": "#FF3E00",
             "PHP": "#4F5D95",
             "Ruby": "#701516",
             "Go": "#00ADD8"
@@ -99,9 +99,9 @@ jobs:
 
             if (totalBytes === 0) {
               return `
-          <svg width="420" height="170" viewBox="0 0 420 170" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="420" height="170" rx="12" fill="#0D1117"/>
-            <text x="28" y="40" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Languages</text>
+          <svg width="420" height="190" viewBox="0 0 420 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="420" height="190" rx="12" fill="#0D1117"/>
+            <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Languages</text>
             <text x="28" y="88" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">No language data found yet.</text>
           </svg>`.trim();
             }
@@ -114,9 +114,10 @@ jobs:
                 color: colors[name] || "#8B949E"
               }))
               .sort((a, b) => b.bytes - a.bytes)
-              .slice(0, 8);
+              .slice(0, 6);
 
             const visibleTotal = entries.reduce((sum, item) => sum + item.bytes, 0);
+
             const normalizedEntries = entries.map(item => ({
               ...item,
               percent: (item.bytes / visibleTotal) * 100
@@ -124,28 +125,37 @@ jobs:
 
             let currentX = 28;
             const barWidth = 340;
+
             const barParts = normalizedEntries.map((item, index) => {
               const width = Math.max(3, (item.percent / 100) * barWidth);
-              const rect = `<rect x="${currentX.toFixed(2)}" y="62" width="${width.toFixed(2)}" height="10" rx="${index === 0 || index === normalizedEntries.length - 1 ? 5 : 0}" fill="${item.color}"/>`;
+              const rx = index === 0 || index === normalizedEntries.length - 1 ? 5 : 0;
+              const rect = `<rect x="${currentX.toFixed(2)}" y="62" width="${width.toFixed(2)}" height="10" rx="${rx}" fill="${item.color}"/>`;
               currentX += width;
               return rect;
-            }).join("\n  ");
+            }).join("\n            ");
 
-            const legend = normalizedEntries.map((item, index) => {
-              const column = index % 2;
-              const row = Math.floor(index / 2);
-              const x = column === 0 ? 30 : 210;
-              const y = 102 + row * 28;
+            const leftColumn = normalizedEntries.filter((_, index) => index % 2 === 0);
+            const rightColumn = normalizedEntries.filter((_, index) => index % 2 === 1);
 
+            const leftLegend = leftColumn.map((item, row) => {
+              const y = 100 + row * 28;
               return `
-            <circle cx="${x}" cy="${y - 4}" r="5" fill="${item.color}"/>
-            <text x="${x + 14}" y="${y}" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">${escapeXml(item.name)}</text>
-            <text x="${x + 95}" y="${y}" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">${item.percent.toFixed(1)}%</text>`;
-            }).join("\n");
+            <circle cx="34" cy="${y - 4}" r="5" fill="${item.color}"/>
+            <text x="48" y="${y}" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">${escapeXml(item.name)}</text>
+            <text x="130" y="${y}" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">${item.percent.toFixed(1)}%</text>`;
+            }).join("");
+
+            const rightLegend = rightColumn.map((item, row) => {
+              const y = 100 + row * 28;
+              return `
+            <circle cx="212" cy="${y - 4}" r="5" fill="${item.color}"/>
+            <text x="226" y="${y}" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">${escapeXml(item.name)}</text>
+            <text x="318" y="${y}" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">${item.percent.toFixed(1)}%</text>`;
+            }).join("");
 
             return `
-          <svg width="420" height="210" viewBox="0 0 420 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="420" height="210" rx="12" fill="#0D1117"/>
+          <svg width="420" height="190" viewBox="0 0 420 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="420" height="190" rx="12" fill="#0D1117"/>
 
             <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
               Languages
@@ -153,13 +163,8 @@ jobs:
 
             <rect x="28" y="62" width="340" height="10" rx="5" fill="#21262D"/>
             ${barParts}
-
-            ${legend}
-
-            <line x1="28" y1="182" x2="392" y2="182" stroke="#30363D"/>
-            <text x="28" y="199" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="11">
-              Auto-generated from public GitHub repository language data.
-            </text>
+            ${leftLegend}
+            ${rightLegend}
           </svg>`.trim();
           }
 
