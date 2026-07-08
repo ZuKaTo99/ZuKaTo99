@@ -95,82 +95,79 @@ jobs:
             };
           }
 
-function buildSvg(totalContributions, currentStreak, longestStreak) {
-  return `
-<svg width="420" height="210" viewBox="0 0 420 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="420" height="210" rx="12" fill="#0D1117"/>
+          function buildSvg(totalContributions, currentStreak, longestStreak) {
+            return `
+          <svg width="420" height="210" viewBox="0 0 420 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="420" height="210" rx="12" fill="#0D1117"/>
 
-  <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
-    Contributions
-  </text>
+            <text x="28" y="36" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
+              Contributions
+            </text>
 
-  <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
+            <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
 
-  <!-- Left -->
-  <text x="70" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
-    ${escapeXml(formatNumber(totalContributions))}
-  </text>
-  <text x="70" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
-    Total Contributions
-  </text>
-  <text x="70" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
-    last 12 months
-  </text>
+            <text x="70" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+              ${escapeXml(formatNumber(totalContributions))}
+            </text>
+            <text x="70" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
+              Total
+            </text>
+            <text x="70" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+              last 12 months
+            </text>
 
-  <line x1="145" y1="72" x2="145" y2="152" stroke="#30363D"/>
+            <line x1="145" y1="72" x2="145" y2="152" stroke="#30363D"/>
 
-  <!-- Center ring -->
-  <circle cx="210" cy="83" r="38" stroke="#12B5EA" stroke-width="5" fill="none"/>
+            <circle cx="210" cy="82" r="38" stroke="#12B5EA" stroke-width="5" fill="none"/>
 
-  <!-- Flame -->
-  <path
-    d="M210 38
-       C206 43, 205 47, 208 51
-       C202 54, 199 60, 199 66
-       C199 74, 204 80, 210 80
-       C216 80, 221 74, 221 66
-       C221 59, 217 54, 212 50
-       C215 46, 214 41, 210 38Z
-       M210 54
-       C208 57, 207 60, 208 63
-       C206 65, 205 67, 205 70
-       C205 74, 207 77, 210 77
-       C213 77, 215 74, 215 70
-       C215 67, 214 64, 212 62
-       C213 59, 213 56, 210 54Z"
-    fill="#12B5EA"/>
+            <path
+              d="M210 39
+                 C205 46, 206 50, 209 54
+                 C202 57, 198 63, 198 70
+                 C198 79, 203 86, 210 86
+                 C217 86, 222 79, 222 70
+                 C222 63, 218 57, 212 53
+                 C215 48, 214 43, 210 39Z"
+              fill="#12B5EA"/>
 
-  <!-- Center number -->
-  <text x="210" y="92" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
-    ${escapeXml(currentStreak)}
-  </text>
-  <text x="210" y="138" text-anchor="middle" fill="#12B5EA" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
-    Current Streak
-  </text>
-  <text x="210" y="160" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
-    days
-  </text>
+            <path
+              d="M210 57
+                 C207 61, 207 64, 209 67
+                 C206 69, 204 72, 204 75
+                 C204 80, 207 83, 210 83
+                 C213 83, 216 80, 216 75
+                 C216 72, 214 69, 212 67
+                 C214 63, 213 60, 210 57Z"
+              fill="#0D1117"/>
 
-  <line x1="275" y1="72" x2="275" y2="152" stroke="#30363D"/>
+            <text x="210" y="96" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
+              ${escapeXml(currentStreak)}
+            </text>
+            <text x="210" y="138" text-anchor="middle" fill="#12B5EA" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+              Current streak
+            </text>
+            <text x="210" y="160" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+              days
+            </text>
 
-  <!-- Right -->
-  <text x="340" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
-    ${escapeXml(longestStreak)}
-  </text>
-  <text x="340" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
-    Longest streak
-  </text>
-  <text x="340" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
-    days
-  </text>
+            <line x1="275" y1="72" x2="275" y2="152" stroke="#30363D"/>
 
-  <line x1="28" y1="182" x2="392" y2="182" stroke="#30363D"/>
-  <text x="28" y="194" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="11">
-    Auto-generated from public GitHub contribution data.
-  </text>
-</svg>`.trim();
-}
-          
+            <text x="340" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
+              ${escapeXml(longestStreak)}
+            </text>
+            <text x="340" y="122" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
+              Longest streak
+            </text>
+            <text x="340" y="143" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+              days
+            </text>
+
+            <line x1="28" y1="182" x2="392" y2="182" stroke="#30363D"/>
+            <text x="28" y="194" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="11">
+              Auto-generated from public GitHub contribution data.
+            </text>
+          </svg>`.trim();
+          }
 
           async function main() {
             const to = new Date();
