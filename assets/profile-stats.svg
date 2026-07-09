@@ -8,7 +8,7 @@
   <line x1="28" y1="52" x2="392" y2="52" stroke="#30363D"/>
 
   <text x="78" y="95" text-anchor="middle" fill="#79C0FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">
-    169
+    182
   </text>
   <text x="78" y="123" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Total
@@ -28,7 +28,7 @@
   </g>
 
   <text x="210" y="104" text-anchor="middle" fill="#F59E0B" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">
-    3
+    4
   </text>
   <text x="210" y="142" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     Current streak
