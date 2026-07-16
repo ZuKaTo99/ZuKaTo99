@@ -6,26 +6,26 @@
   </text>
 
   <rect x="28" y="62" width="340" height="10" rx="5" fill="#21262D"/>
-  <rect x="28.00" y="62" width="210.87" height="10" rx="5" fill="#178600"/>
-            <rect x="238.87" y="62" width="67.46" height="10" rx="0" fill="#E34C26"/>
-            <rect x="306.33" y="62" width="39.37" height="10" rx="0" fill="#663399"/>
-            <rect x="345.70" y="62" width="22.15" height="10" rx="0" fill="#F1E05A"/>
-            <rect x="367.85" y="62" width="3.00" height="10" rx="5" fill="#C1F12E"/>
+  <rect x="28.00" y="62" width="211.59" height="10" rx="5" fill="#178600"/>
+            <rect x="239.59" y="62" width="69.08" height="10" rx="0" fill="#E34C26"/>
+            <rect x="308.67" y="62" width="38.12" height="10" rx="0" fill="#663399"/>
+            <rect x="346.79" y="62" width="21.07" height="10" rx="0" fill="#F1E05A"/>
+            <rect x="367.86" y="62" width="3.00" height="10" rx="5" fill="#C1F12E"/>
   
   <circle cx="34" cy="96" r="5" fill="#178600"/>
   <text x="48" y="100" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">C#</text>
-  <text x="130" y="100" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">62.0%</text>
+  <text x="130" y="100" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">62.2%</text>
   <circle cx="34" cy="124" r="5" fill="#663399"/>
   <text x="48" y="128" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">CSS</text>
-  <text x="130" y="128" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">11.6%</text>
+  <text x="130" y="128" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">11.2%</text>
   <circle cx="34" cy="152" r="5" fill="#C1F12E"/>
   <text x="48" y="156" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Batchfile</text>
   <text x="130" y="156" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">0.0%</text>
   
   <circle cx="212" cy="96" r="5" fill="#E34C26"/>
   <text x="226" y="100" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">HTML</text>
-  <text x="318" y="100" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">19.8%</text>
+  <text x="318" y="100" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">20.3%</text>
   <circle cx="212" cy="124" r="5" fill="#F1E05A"/>
   <text x="226" y="128" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">JavaScript</text>
-  <text x="318" y="128" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">6.5%</text>
+  <text x="318" y="128" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">6.2%</text>
 </svg>
