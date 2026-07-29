@@ -6,11 +6,11 @@
   </text>
 
   <rect x="28" y="62" width="340" height="10" rx="5" fill="#21262D"/>
-  <rect x="28.00" y="62" width="204.55" height="10" rx="5" fill="#178600"/>
-            <rect x="232.55" y="62" width="68.29" height="10" rx="0" fill="#E34C26"/>
-            <rect x="300.83" y="62" width="36.17" height="10" rx="0" fill="#663399"/>
-            <rect x="337.00" y="62" width="21.81" height="10" rx="0" fill="#F1E05A"/>
-            <rect x="358.81" y="62" width="9.06" height="10" rx="0" fill="#3178C6"/>
+  <rect x="28.00" y="62" width="204.53" height="10" rx="5" fill="#178600"/>
+            <rect x="232.53" y="62" width="68.28" height="10" rx="0" fill="#E34C26"/>
+            <rect x="300.81" y="62" width="36.16" height="10" rx="0" fill="#663399"/>
+            <rect x="336.98" y="62" width="21.81" height="10" rx="0" fill="#F1E05A"/>
+            <rect x="358.78" y="62" width="9.08" height="10" rx="0" fill="#3178C6"/>
             <rect x="367.86" y="62" width="3.00" height="10" rx="5" fill="#C1F12E"/>
   
   <circle cx="34" cy="96" r="5" fill="#178600"/>
